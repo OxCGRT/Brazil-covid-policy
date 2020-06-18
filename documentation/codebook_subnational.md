@@ -1,14 +1,12 @@
 # Codebook for the Brazil Subnational Coding - Oxford Covid-19 Government Response Tracker
 
-*** Brazil Subnational Codebook version 1.0 <br/>01 May 2020***
+***Brazil Subnational Codebook version 1.0 <br/>01 May 2020***
 
-This document is codebook for the coding of subnational units drawing on the Oxford Covid-19 Government Response Tracker ([GitHub repo](https://github.com/OxCGRT/covid-policy-tracker), [university website](https://www.bsg.ox.ac.uk/covidtracker)). We adjusted the OxCGRT codebook developed for the country level as detailed below.
+This document is codebook for the coding of subnational units drawing on the Oxford Covid-19 Government Response Tracker ([GitHub repo](https://github.com/OxCGRT/covid-policy-tracker), [university website](https://www.bsg.ox.ac.uk/covidtracker)).
 
-For Brazilian subnational units, we coded nine indicators organised into two groups:
+For Brazilian subnational units, we coded nine OxCGRT indicators organised into two groups:
 - [C - containment and closure policies](#containment-and-closure-policies)
 - [H - health system policies](#health-system-policies)
-
-Updates to this codebook are recorded in the [changelog](#codebook-changelog) below.
 
 All nine indicators are recorded on an ordinal scale that represents the level of strictness of the policy. Eight of the indicators (C1-C7 and H1) also have a flag for whether they are targeted to a specific geographical region (flag=0) or whether they are a "general" policy that is applied across the whole state or city (flag=1).
 
