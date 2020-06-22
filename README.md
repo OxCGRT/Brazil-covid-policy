@@ -4,7 +4,7 @@ This is a project from the [Blavatnik School of Government](www.bsg.ox.ac.uk), t
 
 ---
 
-__Cite as:__ Anna Petherick, Rafael Goldszmidt, Beatriz Kira, and Lorena Barberia. (June 2020). _Do Brazil’s Covid-19 Government Response Measures Meet the WHO’s Criteria for Policy Easing?_. Blavatnik School of Government Working Paper.
+__Cite as:__ Anna Petherick, Rafael Goldszmidt, Beatriz Kira, and Lorena Barberia. (June 2020). _Do Brazil’s Covid-19 Government Response Measures Meet the WHO’s Criteria for Policy Easing?_ Blavatnik School of Government Working Paper.
 
 ---
 
