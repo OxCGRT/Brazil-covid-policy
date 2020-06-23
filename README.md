@@ -2,6 +2,8 @@
 
 This is a project from the [Blavatnik School of Government](www.bsg.ox.ac.uk), the [FGV EBAPE – Escola Brasileira de Administração Pública e de Empresas](https://ebape.fgv.br), and the [University of São Paulo](http://dcp.fflch.usp.br), drawing on the [Blavatnik School of Government OxCGRT](https://www.bsg.ox.ac.uk/covidtracker).
 
+More information is available on the project's website: [https://www.bsg.ox.ac.uk/research/research-projects/brazils-covid-19-policy-response](https://www.bsg.ox.ac.uk/research/research-projects/brazils-covid-19-policy-response).
+
 ---
 
 __Cite as:__ Anna Petherick, Rafael Goldszmidt, Beatriz Kira, and Lorena Barberia. (June 2020).[ _Do Brazil’s Covid-19 Government Response Measures Meet the WHO’s Criteria for Policy Easing?_](https://www.bsg.ox.ac.uk/research/publications/do-brazils-covid-19-government-response-measures-meet-whos-criteria-policy) Blavatnik School of Government Working Paper.
@@ -17,6 +19,3 @@ We also present the original [results](https://github.com/OxCGRT/Brazil-covid-po
 
 The survey was conducted over the phone between 6 to 27 May. It uses randomised stratified sampling by age, sex, income and education level.
 
----
-
-More information on the project's website: [https://www.bsg.ox.ac.uk/research/research-projects/brazils-covid-19-policy-response](https://www.bsg.ox.ac.uk/research/research-projects/brazils-covid-19-policy-response)
