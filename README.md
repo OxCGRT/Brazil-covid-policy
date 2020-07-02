@@ -19,3 +19,8 @@ We also present the original [results](https://github.com/OxCGRT/Brazil-covid-po
 
 The survey was conducted over the phone between 6 to 27 May. It uses randomised stratified sampling by age, sex, income and education level.
 
+
+### Acknowledgments
+The authors thank they colleagues for commentary on the survey questions, especially Eduardo Andrade, Thomas Hale, Toby Phillips, Clare Leaver and Cesar Zucco. The survey was funded by the Global Challenges Research Fund, [The Alfred Landecker Foundation](https://www.bsg.ox.ac.uk/research/research-programmes/alfred-landecker-programme), and [Blavatnik School of Government](www.bsg.ox.ac.uk).
+
+The OxCGRT Brazil subnational coders are: Anna Paula Ferrari Matos, Beatriz Franco, Beatriz Kira, Camilla Sacchetto, Carla Almeida da Vila, Carolina Scherer Beidacki, Daniel Pereira Cabral, Davi Mamblona Marques Romão, Dayane Ferreira, Fabiana da Silva Pereira, Guilherme Ramos, Isabel Seelaender Costa Rosa, Isabela Blumm, Laura dos Santos Boeira, Luiz Guilherme Roth Cantarelli, Marcela Mello Zamudio, Maria Leticia Claro de Faria Oliveira, Natalia Brigagão, Natália de Paula Moreira, Pedro Arcain Riccetto, Pedro Santana Schmalz, Pollyana Pacheco Lima, Ricardo Miranda Rocha Leitão, Rodrigo Furst de Freitas Accetta, Tamoi Fujii, and Teresa Soter Henriques.
