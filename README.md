@@ -46,7 +46,7 @@ __Citação sugerida:__ Anna Petherick, Rafael Goldszmidt, Beatriz Kira, and Lor
 Com base no [sistema de codificação](https://github.com/OxCGRT/Brazil-covid-policy/blob/master/documentation/codebook_subnational.md) do Oxford COVID-19 Government Response Tracker (OxCGRT), nos apresentamos uma medida sistemática e objetivo da força das políticas de resposta ao Covid-19 que foram implementadas pelo governo federal, pelos governos estaduais, e pelos governos de algumas capitais brasileiras. Atualmente, a codificação cobre o período de 1 de janeiro de 2020 a 31 de maio de 2020 para todos os indicadores que compõem o [índice de rigidez](https://github.com/OxCGRT/Brazil-covid-policy/blob/master/documentation/stringency_index_methodology.md) e inclui oito capitais brasileiras. 
 
 
-### Dados de pesquisa sobre as experiências e opiniões das pessoas em relação às políticas de resposta à Covid-19
+### Dados de pesquisa sobre as experiências e opiniões em relação às políticas de resposta à Covid-19
 Nós também apresentamos os [resultados originais](https://github.com/OxCGRT/Brazil-covid-policy/blob/master/data/OxCGRT_Brazil_Subnational_31May2020.csv) de uma pesquisa com 1,654 indivíduos em oito capitais estaduais. A pesquisa foi desenhada para identificar até que ponto a realidade nessas oito cidades correspondia à [lista de recommendações](https://apps.who.int/iris/bitstream/handle/10665/331773/WHO-2019-nCoV-Adjusting_PH_measures-2020.1-eng.pdf) da Organização Mundial da Saúde (OMS) quanto às medidas que deveriam ser adotadas para a flexibilização segura das políticas de resposta à Covid-19.
 
 A primeira rodada da pesquisa foi conduzida pelo telefone entre os dias 6 e 27 de maio e usa uma amostra estratificada por idade, sexo, escolaridade e faixa de renda.
