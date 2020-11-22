@@ -134,7 +134,7 @@ O cálculo detalhado e a lógica por trás da fórmula estão no [relatório de 
 
 ### Análise de regiões específicas
 
-Relatórios individuais relatando a situação de nove capitais brasileiras (São Paulo/SP, Rio de Janeiro/RS, Porto Alegre/RS, Goiânia/GO, Salvador/BA, Recife/PE, Fortaleza/CE, Manaus/AM e Belém/PA) estão dispníveis na pasts [/policy briefs](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/policy_briefs).
+Relatórios individuais relatando a situação de nove capitais brasileiras (São Paulo/SP, Rio de Janeiro/RS, Porto Alegre/RS, Goiânia/GO, Salvador/BA, Recife/PE, Fortaleza/CE, Manaus/AM e Belém/PA) estão disponíveis na pasta [/policy briefs](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/policy_briefs).
 
 
 ### Agradecimentos
