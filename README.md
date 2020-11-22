@@ -48,7 +48,7 @@ The [/data](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data) fold
 You can also get Brazilian sub-national Covid-19 government response policies through our API. Documentation for this is published [here](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/documentation).
 
 ### Survey data on citzens experiences and opinions relating to Covid-19 and government policies
-We also present the original [results](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data)of two rounds of a survey. The first round was conducted between 6 to 27 May and surveyed 1,654 citizens across eight state capitals. In the second round, 1,861 interviews were conducted between 27 July and 2 October 2020.
+We also present the original [results](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data) of two rounds of a survey. The first round was conducted between 6 to 27 May and surveyed 1,654 citizens across eight state capitals. In the second round, 1,861 interviews were conducted between 27 July and 2 October 2020.
 
 The surveys questionnaire was designed to ascertain the extent to which reality on the ground in these eight cities meets the World Health Organization’s (WHO) [list of recommendations](https://apps.who.int/iris/bitstream/handle/10665/331773/WHO-2019-nCoV-Adjusting_PH_measures-2020.1-eng.pdf) of the measures that should be put in place before Covid-19 response policies can be safely relaxed. Both rounds were conducted over the phone and used randomised stratified sampling by age, sex, income and education level.
 
