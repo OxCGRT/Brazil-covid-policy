@@ -1,7 +1,7 @@
 name: Pull raw data from OxCGRT Brazil non imputed API endpoint
-on: push 
-#  schedule:
-#    - cron: '30 1 * * *'
+on:
+  schedule:
+    - cron: '30 1 * * *'
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
         run: |
           ls
           ls -a
-          curl 'http://oxcgrtportal.azurewebsites.net/api/csvdownload?type=subnational_brazil_imputed' -s -f -Lo 'OxCGRT_Brazil_latest.csv'
+          curl 'http://oxcgrtportal.azurewebsites.net/api/csvdownload?type=subnational_brazil_imputed' -s -f -Lo 'data/OxCGRT_Brazil_latest.csv'
           git status
    
       - name: Commit changes
