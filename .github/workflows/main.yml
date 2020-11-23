@@ -1,0 +1,32 @@
+name: Pull raw data from OxCGRT Brazil non imputed API endpoint
+on: push 
+#  schedule:
+#    - cron: '30 1 * * *'
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: Download raw Brazil csv from OxCGRT database
+        run: |
+          ls
+          ls -a
+          curl 'http://oxcgrtportal.azurewebsites.net/api/csvdownload?type=subnational_brazil_imputed' -s -f -Lo 'OxCGRT_Brazil_latest.csv'
+          git status
+   
+      - name: Commit changes
+        run: |
+          ls 
+          git status
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Pull latest OxCGRT data" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
