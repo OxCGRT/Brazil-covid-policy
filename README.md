@@ -7,7 +7,7 @@ More information is available on the project's website: [www.bsg.ox.ac.uk/pesqui
 
 ---
 
-__Cite this dataset as:__ Anna Petherick, Rafael Goldszmidt, Lorena Barberia, Beatriz Kira, Maria Luciano.[ _Brazil’s Covid-19 Government Response Policies_](http://bsg.ox.ac.uk/pesquisa-covid19-brasil) Blavatnik School of Government, 2020.
+__Cite this dataset as:__ Anna Petherick, Beatriz Kira, Lorena Barberia, Thomas Boby, Rafael Goldszmidt, and Maria Luciano. [ _Brazil’s Covid-19 Government Response Policies_](http://bsg.ox.ac.uk/pesquisa-covid19-brasil), Blavatnik School of Government, 2020.
 
 ---
 
@@ -81,7 +81,7 @@ Mais informações estão disponíveis no site do projeto: [www.bsg.ox.ac.uk/pes
 
 ---
 
-__Citação sugerida para a base de dados:__ Anna Petherick, Rafael Goldszmidt, Lorena Barberia, Beatriz Kira, Maria Luciano.[ _Brazil’s Covid-19 Government Response Policies_](http://bsg.ox.ac.uk/pesquisa-covid19-brasil) Blavatnik School of Government, 2020.
+__Citação sugerida para a base de dados:__ Anna Petherick, Beatriz Kira, Lorena Barberia, Thomas Boby, Rafael Goldszmidt, e Maria Luciano.[ _Brazil’s Covid-19 Government Response Policies_](http://bsg.ox.ac.uk/pesquisa-covid19-brasil), Blavatnik School of Government, 2020.
 
 ---
 
