@@ -1,4 +1,4 @@
-# Methodology behind calculation of (Subnational) Risk of Openness Index (RoOI)
+# Methodology and Data behind calculation of (Subnational) Risk of Openness Index (RoOI)
 
 #### Risk of Openness Index (RoOI) derived from the Oxford COVID-19 Government Response Tracker (OxCGRT)
 
@@ -65,18 +65,17 @@ In certain cases, there may be gaps in OxCGRT indicator data. We perform a simpl
 
 #### `community`  
 
-<img src="https://latex.codecogs.com/gif.latex?community&space;=&space;0.5*(casescontrolled)*(\frac{mob-20}{100})" title="community = 0.5*(casescontrolled)*(\frac{mob-20}{100})" />
+<img src="https://latex.codecogs.com/gif.latex?community&space;=&space;0.5*casescontrolled&space;&plus;&space;(1-0.5*casescontrolled)*\frac{mob-20}{100}" />
 
 Where
 * _casescontrolled_ is the metric between 0 and 1 calculated in the first item above.
-* _mob_ is the level of mobility as a percentage of pre-COVID baseline levels reported by Apple (average of all three reported mobility types) or Google (average of “retail and recreation”, “transit stations”, and “workplaces” mobility types).
+* _mob_ is the level of mobility as a percentage of pre-COVID baseline levels reported by Google (average of “retail and recreation”, “transit stations”, and “workplaces” mobility types).
 
 ##### **`NA` Handling**
 
 **If a country does not have a national public information campaign (that is, the OxCGRT database reports H1≠2), then the entire metric is set to 0.**  
   
-If a country has both Apple and Google mobility data, then _mob_ is set to whichever reports the greatest reduction in mobility.
-If a country has neither Apple nor Google mobility, then this metric is left blank.
+If a country has no Google mobility data, then this metric is left blank.
 
 If _mob_ < 20 (that is: a reduction to less than 20% of pre-COVID levels), it is set to 20.  
 If _mob_ > 120 (that is: mobility has increased to 120% of pre-COVD levels), it is set to 120.
@@ -99,7 +98,7 @@ The endemic factor is calculated as:
 ##### `NA` Handling
 
 Since we perform an interpolation operation on the cases data, we end up with a continous timeseries of cases for each country. However, prior to the start of tranmission, 
-a country would record case data as `NA`. As defined in the [README.md](./writeup.md), we set Risk of Openness Index to `NA` for a country until its first case is recorded.
+a country would record case data as `NA`. We set Risk of Openness Index to `NA` for a country until its first case is recorded.
 
 The Final Index is computed by modulating the Unadjusted Index through the endemic factor.
 
@@ -112,7 +111,15 @@ The final *Risk of Openness Index* is calculated as:
 
 For interpretation and explanation of the logic for any of these calculation, refer to the working paper. 
 
-## Index Methodology Changelog 
+## Data Sources 
 
-* 05/10/2020 - Sub-index formulas adjusted to relfect risk instead of inverse-risk. Thus, each sub-index is now aligned directionally with the Final index (calculation adjusted accordingly). 
-* 06/09/2020 - Update Risk of Openness index calculation including sub-indices, endemic factor, unadjusted and final Risk Index.
+Multiple data sources other than the OxCGRT Tracker have been used particularly for cases, testing and mobility index figures of Brazilian states and cities. 
+
+1. **Brazilian States and Cities COVID-19 cases** - [W. Cota, “Monitoring the number of COVID-19 cases and deaths in brazil at municipal and federative units level”, SciELOPreprints:362 (2020), 10.1590/scielopreprints.362](https://github.com/wcota/covid19br)
+2. **Brazilian States COVID-19 Testing** -  [W. Cota, “Monitoring the number of COVID-19 cases and deaths in brazil at municipal and federative units level”, SciELOPreprints:362 (2020), 10.1590/scielopreprints.362](https://github.com/wcota/covid19br)
+3. **Brazilian Cities COVID-19 Testing** - [Secretaria de Vigilância em Saúde do Ministério da Saúde (SVS-MS)](http://plataforma.saude.gov.br/coronavirus/dados-abertos/)
+4. **Mobility Indices** - [Google Mobility Reports](https://www.google.com/covid19/mobility/)
+
+## Index Methodology Changelog 
+ 
+* 23/11/2020 - Update Risk of Openness index calculation including sub-indices, endemic factor, unadjusted and final Risk Index.
