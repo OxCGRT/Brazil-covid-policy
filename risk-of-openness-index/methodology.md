@@ -3,7 +3,7 @@
 #### Risk of Openness Index (RoOI) derived from the Oxford COVID-19 Government Response Tracker (OxCGRT)
 
 _**Methodology version 1.1**_  
-_**23rd November, 2020**_
+_**26th November, 2020**_
 
 The index draws itself from a combination of OxCGRT indicators and data on COVID-19 testing and cases from verified sources. The data sources and methodology differ slightly from the [National ROOI](https://github.com/OxCGRT/covid-policy-scratchpad/edit/master/risk_of_openness_index/methodology.md). 
 However, care is taken to ensure that the subnational risk indices remain as comparable as possible to the national index. 
@@ -73,7 +73,7 @@ Where
 
 ##### **`NA` Handling**
 
-**If a country does not have a national public information campaign (that is, the OxCGRT database reports H1≠2), then the entire metric is set to 0.**  
+**If a country does not have a national public information campaign (that is, the OxCGRT database reports H1≠2), then the entire metric is set to 1.**  
   
 If a country has no Google mobility data, then this metric is left blank.
 
