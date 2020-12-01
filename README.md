@@ -45,8 +45,6 @@ The Brazil subnational working paper describes the methodology, data collection 
 #### Getting data
 The [/data](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data) folder in this repo contains recent exports from the Brazil sub-national database. You are welcome to build applications that draw directly from this repository. The data is a full export from the database presented in "jurisdiction-day" format, with a column of notes from our data collectors for each indicator. This is updated manually on a regular basis, and so the file name may change. Please note that some of the comments contain commas and other characters interpreted as a delimiter, and so may cause problems when parsing this CSV file.
 
-You can also get Brazilian sub-national Covid-19 government response policies through our API. Documentation for this is published [here](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/documentation).
-
 ### Survey data on citzens experiences and opinions relating to Covid-19 and government policies
 We also present the original [results](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data) of two rounds of a survey. The first round was conducted between 6 to 27 May and surveyed 1,654 citizens across eight state capitals. In the second round, 1,861 interviews were conducted between 27 July and 2 October 2020.
 
@@ -115,8 +113,6 @@ O relatório sobre os dados brasileiros descreve a metodologia, protocolos de co
 
 #### Acesso aos dados
 A pasta [/data](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/data) neste respositório contém arquivos atualizados periodicamente com os dados subnacionais, que estão disponíveis para a construção de aplicações. Os dados são apresentados no formato "jurisdição-dia", com uma coluna com notas escritas pela nossa equipe de codificadores para cada indicador. Os arquivos são autalizados manualmente em intervalos regulares, e o nome do arquivo pode mudar. Note que alguns dos comentários podem incluir vírgulas e outros caracteres como delimitadores, o que pode afetar análises automatizadas do arquivo CSV.
-
-A base de dados subnacional de medidas adotadas pelos governos brasileiros em resposta à Covid-19 pode ser acessada também via API. A documentação da API está disponível [aqui](https://github.com/OxCGRT/Brazil-covid-policy/tree/master/documentation).
 
 
 ### Dados de pesquisa sobre as experiências e opiniões em relação às políticas de resposta à Covid-19
