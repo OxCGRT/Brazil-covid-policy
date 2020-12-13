@@ -44,10 +44,7 @@ Where:
 
 ##### **`NA` Handling**
 
-If the Our World in Data team has not included a country in their testing database, the portion of the metric based on testing data is set to the global average* of `test and trace`.
-If the Our World in Data team tried to include a country in their testing database but could not find publicly available numbers, the portion of the metric based on testing data is set to 0.
-
-_*global average prior to imputation_
+If testing data isn't available for a city or state, the portion of the metric based on testing data is set to 0.
 
 ---
 
@@ -73,9 +70,9 @@ Where
 
 ##### **`NA` Handling**
 
-**If a country does not have a national public information campaign (that is, the OxCGRT database reports H1≠2), then the entire metric is set to 1.**  
+**If a state or city does not have a national public information campaign (that is, the OxCGRT database reports H1≠2), then the entire metric is set to 1.**  
   
-If a country has no Google mobility data, then this metric is left blank.
+If a state or city has no Google mobility data, then this metric is left blank.
 
 If _mob_ < 20 (that is: a reduction to less than 20% of pre-COVID levels), it is set to 20.  
 If _mob_ > 120 (that is: mobility has increased to 120% of pre-COVD levels), it is set to 120.
