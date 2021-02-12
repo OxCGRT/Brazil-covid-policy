@@ -1,7 +1,7 @@
 # Brazilian Sub-National Covid-19 Policy Responses
 [_Versão em Português disponível abaixo_](#Políticas-Públicas-de-Resposta-à-Covid-19-no-Brasil)
 
-This is a project from the [Blavatnik School of Government](www.bsg.ox.ac.uk), the [FGV EBAPE – Escola Brasileira de Administração Pública e de Empresas](https://ebape.fgv.br), and the [University of São Paulo](http://dcp.fflch.usp.br), drawing on the [Blavatnik School of Government OxCGRT](https://www.bsg.ox.ac.uk/covidtracker).
+This is a project from the [Blavatnik School of Government](www.bsg.ox.ac.uk), the [FGV EBAPE – Escola Brasileira de Administração Pública e de Empresas](https://ebape.fgv.br), and the [University of São Paulo](http://dcp.fflch.usp.br), contributing to the global [Oxford COVID-19 Government Response Tracker (OxCGRT)](https://www.bsg.ox.ac.uk/covidtracker) at the Blavatnik School.
 
 More information is available on the project's website: [www.bsg.ox.ac.uk/pesquisa-covid19-brasil](http://bsg.ox.ac.uk/pesquisa-covid19-brasil).
 
