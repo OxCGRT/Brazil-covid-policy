@@ -14,7 +14,12 @@ jobs:
         run: |
           ls
           ls -a
-          curl 'http://oxcgrtportal.azurewebsites.net/api/csvdownload?type=subnational_brazil_imputed' -s -f -Lo 'data/OxCGRT_Brazil_latest.csv'
+          curl  -s -f -Lo 
+          
+            curl 'http://oxcgrtportal.azurewebsites.net/api/csvdownload?type=subnational_brazil_imputed' -s -f -o 'data/OxCGRT_Brazil_latest.csv'
+          awk -F "," 'NR==1 {header=$0}; NF>1 && NR>1 {year=substr($6,1,4); if(! files[year]) {print header > ('data/OxCGRT_Brazil_latest_.csv' year ".csv"); files[year]=1}; print $0 > ('data/OxCGRT_Brazil_latest_.csv' year ".csv")}' 'data/OxCGRT_Brazil_latest.csv'
+          rm 'data/OxCGRT_Brazil_latest.csv'
+          
           git status
    
       - name: Commit changes
