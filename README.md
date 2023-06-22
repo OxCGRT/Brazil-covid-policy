@@ -1,6 +1,6 @@
 | Final OxCGRT dataset available, June 2023 |
 | --- |
-| *This repository contains old data*. The OxCGRT stopped publishing real-time updates at the end of 2022. A final version of the OxCGRT dataset is available at https://github.com/OxCGRT/covid-policy-dataset<br/>The final version of the dataset has more jurisdictions and more consistency in data format between files. We recommend people only continue to use this OxCGRT/Australia-covid-policy repository if they need to access old or historical versions of the OxCGRT dataset. |
+| *This repository contains old data*. The OxCGRT stopped publishing real-time updates at the end of 2022. A final version of the OxCGRT dataset is available at https://github.com/OxCGRT/covid-policy-dataset<br/>The final version of the dataset has more jurisdictions and more consistency in data format between files. We recommend people only continue to use this OxCGRT/Brazil-covid-policy repository if they need to access old or historical versions of the OxCGRT dataset. |
 
 <br/>
 <br/>
